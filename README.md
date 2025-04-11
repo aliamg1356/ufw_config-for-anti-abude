@@ -1,8 +1,8 @@
 # اسکریپت پیکربندی فایروال UFW
 
-![UFW Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/UFW_uncomplicated_firewall.svg/1200px-UFW_uncomplicated_firewall.svg.png)
 
-یک اسکریپت هوشمند برای پیکربندی خودکار فایروال UFW در سیستم‌های اوبونتو با قابلیت‌های سفارشی‌سازی پیشرفته.
+
+یک اسکریپت هوشمند برای پیکربندی خودکار فایروال UFW در سیستم‌های اوبونتو با قابلیت جلوگیری از دریافت ابیوز نت اسکن.
 
 ## ✨ ویژگی‌های کلیدی
 
@@ -16,19 +16,8 @@
 ## 🚀 نحوه استفاده
 
 1. دریافت اسکریپت:
-   ```bash
-   git clone https://github.com/username/ufw-config-fa.git
-   cd ufw-config-fa
    ```
-
-2. دادن مجوز اجرا:
-   ```bash
-   chmod +x ufw_config.sh
-   ```
-
-3. اجرا با دسترسی روت:
-   ```bash
-   sudo ./ufw_config.sh
+   bash <(curl -s https://github.com/aliamg1356/ufw_config-for-anti-abude/blob/main/hetzner_anti_abuse.sh --ipv4)
    ```
 
 ## 🖥️ راهنمای تعاملی
