@@ -69,7 +69,6 @@ ufw deny out from any to 102.230.9.0/24
 ufw deny out from any to 102.233.71.0/24
 ufw deny out from any to 102.236.0.0/16
 
-
 # Prompt for additional ports
 echo "Do you want to open additional ports? (y/n)"
 read answer
