@@ -58,12 +58,15 @@ ufw deny out from any to 0.0.0.0/8
 ufw deny out from any to 127.0.0.0/8
 ufw deny out from any to 127.0.53.53
 ufw deny out from any to 192.0.0.0/24
-ufw deny out from any to 192.0.2.0/24
+ufw deny out from any to 192.88.99.0/24
 ufw deny out from any to 198.51.100.0/24
 ufw deny out from any to 203.0.113.0/24
 ufw deny out from any to 224.0.0.0/3
 ufw deny out from any to 240.0.0.0/4
 ufw deny out from any to 255.255.255.255
+ufw deny out from any to 102.230.9.0/24
+ufw deny out from any to 102.233.71.0/24
+ufw deny out from any to 102.236.0.0/16
 
 # Prompt for additional ports
 echo "Do you want to open additional ports? (y/n)"
